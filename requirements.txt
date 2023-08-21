@@ -1,0 +1,7 @@
+Based on the given Python program, the following package requirements are identified:
+
+- No additional Python packages are required.
+
+The program only uses built-in modules `random` and `time`, which are part of the standard library and do not require installation.
+
+Therefore, the `requirements.txt` file can be left empty.
