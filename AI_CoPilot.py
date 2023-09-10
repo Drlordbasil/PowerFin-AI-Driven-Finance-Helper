@@ -1,8 +1,8 @@
+import time
+import random
 Sure! Here's an AI chatbot script that helps the user run the program locally on their PC:
 
 ```python
-import random
-import time
 
 
 class RetryError(Exception):
