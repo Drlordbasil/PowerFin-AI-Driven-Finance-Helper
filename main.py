@@ -99,7 +99,7 @@ class FinancialAssistant:
             print("Spending patterns:")
             for category, percentage in spending_patterns.items():
                 print(f"- {category}: {percentage:.2f}%")
-        
+
         self.retry_helper.retry(_analyze_spending_patterns)
 
     def set_budget(self):
@@ -113,7 +113,7 @@ class FinancialAssistant:
             print("Suggested spending limits:")
             for category, limit in spending_limits.items():
                 print(f"- {category}: ${limit:.2f}")
-            
+
         self.retry_helper.retry(_suggest_spending_limits)
 
     def execute_autonomous_program(self):
